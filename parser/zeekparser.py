@@ -38,7 +38,8 @@ def run_zeek_command(pcap_path):
     ret = os.system(cmd_str)
 
     if ret == 0:
-        print("%s processed by Zeek success" % p.name)
+        # print("%s processed by Zeek success" % p.name)
+        pass
     else:
         print("%s processed by Zeek error" % p.name)
 

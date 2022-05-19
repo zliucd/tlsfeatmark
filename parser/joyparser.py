@@ -41,7 +41,8 @@ def run_joy_command(pcap_path):
     ret = os.system(cmd_str)
 
     if ret == 0:
-        print("%s processed by Joy success" % p.name)
+        # print("%s processed by Joy success" % p.name)
+        pass
     else:
         print("%s processed by Joy error" % p.name)
 
