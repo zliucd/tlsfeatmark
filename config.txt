@@ -1,0 +1,15 @@
+[default]
+
+# pcap_dir is the file or dir path containing pcaps you wish to analyze
+# for relative path, always using "./" as prefix which is relative to main.py
+pcap_path = ./pcaps/small_pcaps
+
+# for absolute path, use the path directly
+# pcap_path = /opt/pcaps/small_pcaps
+
+# for single pcap
+# pcap_path = /2021-01-04-Emotet-infection-with-Trickbot-traffic.pcap
+
+
+# on/off for printing each task, default on
+enable_task_print = off

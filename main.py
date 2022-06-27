@@ -16,7 +16,7 @@ from common.util import setup, get_platform_info
 
 if __name__ == '__main__':
 
-    print("===== TLSfeatmark - a testing package for TLS analytics v0.1 =====")
+    print("===== TLSfeatmark - a testing package for TLS analytics using Joy and Zeek, v0.1 =====")
 
     config = setup("config.txt")
     if config == None:
@@ -24,12 +24,17 @@ if __name__ == '__main__':
         exit(0)
 
     pcap_path = config["pcap_path"]
+    abs_path = ""
+    if pcap_path[0:2] == "./":
+        abs_path = os.path.join(os.getcwd(), pcap_path[2:])
+    else:
+        abs_path = pcap_path
 
     joy_job = Job(config)
-    joy_results = joy_job.do_job_joy(pcap_path)
+    joy_results = joy_job.do_job_joy(abs_path)
 
     zeek_job = Job(config)
-    zeek_results = zeek_job.do_job_zeek(pcap_path)
+    zeek_results = zeek_job.do_job_zeek(abs_path)
 
     print("===== Summary =====")
     results = dict()
@@ -54,4 +59,5 @@ if __name__ == '__main__':
     f = open(fpath, "w")
     f.write(output)
 
-    print("\n===== TLSfeatmark jobs done =====")
+    print("[INFO]Testing results have been written to %s" % fpath)
+    print("\n===== TLSfeatmark done =====")

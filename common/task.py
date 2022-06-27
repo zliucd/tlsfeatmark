@@ -31,7 +31,7 @@ class Job:
         """
         Analyze pcaps from pcap_path using Joy
         Args:
-            pcap_path: pcap dir
+            pcap_path: pcap file or dir path
 
         Returns:
             analysis results in dict
@@ -68,7 +68,7 @@ class Job:
             i += 1
 
         results["job"]["tool"] = "joy"
-        results["job"]["pcap_dir"] = pcap_path
+        results["job"]["pcap_path"] = pcap_path
         results["job"]["pcap_num"] = i
         results["job"]["tls_total"] = tls_total
         results["job"]["cert_total"] = cert_total
@@ -80,7 +80,7 @@ class Job:
         """
         Analyze pcaps from pcap_path using Zeek
         Args:
-            pcap_path: pcap dir
+            pcap_path: pcap file or dir path
 
         Returns:
             analysis results in dict
@@ -120,7 +120,7 @@ class Job:
             i += 1
 
         results["job"]["tool"] = "zeek"
-        results["job"]["pcap_dir"] = pcap_path
+        results["job"]["pcap_path"] = pcap_path
         results["job"]["pcap_num"] = i
         results["job"]["tls_total"] = tls_total
         results["job"]["cert_total"] = cert_total

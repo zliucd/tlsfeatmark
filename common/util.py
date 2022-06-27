@@ -6,30 +6,30 @@ task.py
 This file is part of TLSfeatmark, a testing package for TLS analytics. See LICENSE for more information.
 """
 
-import configparser
-import cpuinfo
-import os
-import platform
+import os, configparser
+import cpuinfo, platform
 
 def setup(config_path):
     """
-    Set up function
+    Parse config file and check if Joy and Zeek have been installed
     Args:
         config_path: config file path
 
     Returns:
-        config dict
+        dict: config object, return None if error occurs
     """
 
     d = read_config(config_path)
     if d == None:
         return None
 
+    # check if Joy and Zeek are in-place to use
     ret = check_tools_exists()
     if ret != 0:
         return None
 
     print("[INFO]Setup success")
+
     return d
 
 
@@ -52,9 +52,8 @@ def read_config(config_path):
         d = dict()
         d["pcap_path"] = config["default"]["pcap_path"]
         d["enable_task_print"] = config["default"]["enable_task_print"]
-        d["enable_save_results"] = config["default"]["enable_save_results"]
-    except:
-        print("[ERROR]Config file not not exist or parsing error")
+    except Exception as e:
+        print("[ERROR]Config file not not exist or parsing error, msg: %s" % str(e))
         d = None
 
     return d
@@ -77,17 +76,19 @@ def check_tools_exists():
     """
     Check if Joy and Zeek have benn installed
     Returns:
-        0 for Joy and Zeek are installed, otherwiese -1
+        0 for Joy and Zeek are installed, otherwise -1
     """
     ret1 = check_joy_exists()
     ret2 = check_zeek_exists()
 
     if ret1 == 0 and ret2 == 0:
-        # print("[INFO]Joy and Zeek have been installed")
         return 0
-    else:
-        print("[ERROR]Joy and Zeek are not installed, see README for installation")
-        return -1
+    elif ret1 != 0:
+        print("[ERROR]Joy is not installed, see Joy installation documentation https://github.com/cisco/joy/wiki/Installation")
+    elif ret2 != 0:
+        print("[ERROR]Zeek is not installed, see Zeek installation documentation https://docs.zeek.org/en/master/install.html")
+
+    return -1
 
 
 def check_joy_exists():
@@ -99,7 +100,6 @@ def check_joy_exists():
     ret = os.popen('joy --help').read()
 
     if "command not found" in ret:
-        print("[ERROR]Joy is not installed, visit https://github.com/cisco/joy/wiki/Installation")
         return -1
 
     return 0
@@ -122,9 +122,11 @@ def check_zeek_exists():
 
 def traverse_dir(pcap_path):
     """
-    Traverse dir, get all pcaps absolute paths
+    Traverse dir, get all pcaps absolute paths.
+    If it's file, return a list with a single file.
+    Error occurs if the path does not exist.
     Args:
-        pcap_path: pcap path
+        pcap_path: pcap file or dir path
 
     Returns:
         a list of pcap files paths
@@ -139,5 +141,8 @@ def traverse_dir(pcap_path):
             for f in file_names:
                 if f[0:2] != "._" and f[-5:] == ".pcap":
                     pcap_files.append(os.path.join(root, f))
+    else:
+        print("[ERROR]Check pcap path, which does not exist. Current given path: %s" % pcap_path)
+        exit(0)
 
     return pcap_files

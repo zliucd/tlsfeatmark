@@ -1,0 +1,89 @@
+{
+    "cpu": "11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz",
+    "os": "Linux 4.18.0-348.2.1.el8_5.x86_64",
+    "time": "2022-06-27 13:43:03",
+    "joy": {
+        "job": {
+            "tool": "joy",
+            "pcap_path": "/home/dev/tlsfeatmark/pcaps/small_pcaps",
+            "pcap_num": 5,
+            "tls_total": 323,
+            "cert_total": 294,
+            "elapsed_total": 0.32
+        },
+        "task": [
+            {
+                "name": "2021-01-13-Emotet-epoch-2-infection-traffic-with-Trickbot-gtag-mor13-2.pcap",
+                "tls_num": 46,
+                "cert_num": 78,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-01-04-Emotet-infection-with-Trickbot-traffic.pcap",
+                "tls_num": 10,
+                "cert_num": 10,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-01-06-Remcos-RAT-infection.pcap",
+                "tls_num": 1,
+                "cert_num": 2,
+                "elapsed": 0.01
+            },
+            {
+                "name": "2021-01-05-PurpleFox-EK-and-post-infection-traffic.pcap",
+                "tls_num": 8,
+                "cert_num": 14,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-01-12-Hancitor-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 258,
+                "cert_num": 190,
+                "elapsed": 0.15
+            }
+        ]
+    },
+    "zeek": {
+        "job": {
+            "tool": "zeek",
+            "pcap_path": "/home/dev/tlsfeatmark/pcaps/small_pcaps",
+            "pcap_num": 5,
+            "tls_total": 323,
+            "cert_total": 477,
+            "elapsed_total": 1.06
+        },
+        "task": [
+            {
+                "name": "2021-01-13-Emotet-epoch-2-infection-traffic-with-Trickbot-gtag-mor13-2.pcap",
+                "tls_num": 46,
+                "cert_num": 84,
+                "elapsed": 0.23
+            },
+            {
+                "name": "2021-01-04-Emotet-infection-with-Trickbot-traffic.pcap",
+                "tls_num": 10,
+                "cert_num": 15,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-01-06-Remcos-RAT-infection.pcap",
+                "tls_num": 1,
+                "cert_num": 2,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-01-05-PurpleFox-EK-and-post-infection-traffic.pcap",
+                "tls_num": 8,
+                "cert_num": 15,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-01-12-Hancitor-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 258,
+                "cert_num": 361,
+                "elapsed": 0.34
+            }
+        ]
+    }
+}
