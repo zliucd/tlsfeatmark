@@ -91,7 +91,16 @@ see Zeek [official documentation](https://docs.zeek.org/en/master/install.html) 
 
 3. Install tlsfeatmark
 
-```pip install tlsfeatmark```
+Install Python(Python 3.x can work) and ```tlsfeatmark```.
+
+```pip3 install tlsfeatmark```
+
+If you'd like to use a standalone virtual environment, use following steps:
+```
+python3 -m venv test_venv
+source test_venv/bin/activate
+pip3 install tlsfeatmark
+```
 
 ### How to use
 ```Tlsfeatmark``` is easy to use once Joy and Zeek are installed.
