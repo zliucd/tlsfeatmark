@@ -115,5 +115,10 @@ pip3 install tlsfeatmark
 
 3. View results in ```output``` folder.
 
+### Caveats
+
+The Joy command uses ```gunzip``` for compression/decompression of log files, which may generate large
+tmp files in ```/tmp``` and can cause "no space left on device".  You may manually remove these tmp files in ```/tmp```. 
+
 ### License
 ```Tlsfeatmark``` is under MIT license, see LICENSE for more information.

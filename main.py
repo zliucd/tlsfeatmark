@@ -53,7 +53,10 @@ if __name__ == '__main__':
     output = json.dumps(results, indent=4)
     print(output)
 
-    fname = Path(pcap_path).stem + "_results" + ".json"
+    curr_time = datetime.datetime.now()
+    fmt_time = curr_time.strftime("%Y-%m-%d_%H:%M:%S")
+
+    fname = Path(pcap_path).stem + "_" + fmt_time + ".json"
     fpath = os.path.join(os.getcwd(), "output", fname)
 
     f = open(fpath, "w")
