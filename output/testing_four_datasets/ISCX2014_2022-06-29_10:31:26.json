@@ -1,0 +1,65 @@
+{
+    "cpu": "11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz",
+    "os": "Linux 4.18.0-348.2.1.el8_5.x86_64",
+    "time": "2022-06-29 10:31:26",
+    "joy": {
+        "job": {
+            "tool": "joy",
+            "pcap_path": "/pcaps/ISCX2014",
+            "pcap_num": 3,
+            "tls_total": 9351,
+            "cert_total": 2816,
+            "elapsed_total": 257.88
+        },
+        "task": [
+            {
+                "name": "ISCX_Botnet_Testing.pcap",
+                "tls_num": 2644,
+                "cert_num": 646,
+                "elapsed": 78.29
+            },
+            {
+                "name": "ISCX_Botnet_Training.pcap",
+                "tls_num": 5199,
+                "cert_num": 1661,
+                "elapsed": 121.64
+            },
+            {
+                "name": "testDset_with_iscx_2.pcap",
+                "tls_num": 1508,
+                "cert_num": 509,
+                "elapsed": 57.95
+            }
+        ]
+    },
+    "zeek": {
+        "job": {
+            "tool": "zeek",
+            "pcap_path": "/opt/pcaps/ISCX2014",
+            "pcap_num": 3,
+            "tls_total": 399,
+            "cert_total": 690,
+            "elapsed_total": 278.34
+        },
+        "task": [
+            {
+                "name": "ISCX_Botnet_Testing.pcap",
+                "tls_num": 132,
+                "cert_num": 180,
+                "elapsed": 77.9
+            },
+            {
+                "name": "ISCX_Botnet_Training.pcap",
+                "tls_num": 135,
+                "cert_num": 330,
+                "elapsed": 141.18
+            },
+            {
+                "name": "testDset_with_iscx_2.pcap",
+                "tls_num": 132,
+                "cert_num": 180,
+                "elapsed": 59.26
+            }
+        ]
+    }
+}

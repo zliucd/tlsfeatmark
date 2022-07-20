@@ -1,0 +1,185 @@
+{
+    "cpu": "11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz",
+    "os": "Linux 4.18.0-348.2.1.el8_5.x86_64",
+    "time": "2022-06-30 11:05:08",
+    "joy": {
+        "job": {
+            "tool": "joy",
+            "pcap_path": "/opt/pcaps/CTU13",
+            "pcap_num": 13,
+            "tls_total": 1504,
+            "cert_total": 1931,
+            "elapsed_total": 367.62
+        },
+        "task": [
+            {
+                "name": "botnet-capture-20110815-rbot-dos.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 1.03
+            },
+            {
+                "name": "botnet-capture-20110810-neris.pcap",
+                "tls_num": 33,
+                "cert_num": 61,
+                "elapsed": 1.3
+            },
+            {
+                "name": "botnet-capture-20110819-bot.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 1.96
+            },
+            {
+                "name": "botnet-capture-20110816-sogou.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.09
+            },
+            {
+                "name": "botnet-capture-20110816-qvod.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.46
+            },
+            {
+                "name": "botnet-capture-20110815-fast-flux.pcap",
+                "tls_num": 17,
+                "cert_num": 42,
+                "elapsed": 0.2
+            },
+            {
+                "name": "botnet-capture-20110816-donbot.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.18
+            },
+            {
+                "name": "botnet-capture-20110817-bot.pcap",
+                "tls_num": 1347,
+                "cert_num": 1669,
+                "elapsed": 10.37
+            },
+            {
+                "name": "botnet-capture-20110812-rbot.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 1.73
+            },
+            {
+                "name": "botnet-capture-20110811-neris.pcap",
+                "tls_num": 13,
+                "cert_num": 21,
+                "elapsed": 1.06
+            },
+            {
+                "name": "botnet-capture-20110815-fast-flux-2.pcap",
+                "tls_num": 94,
+                "cert_num": 138,
+                "elapsed": 2.0
+            },
+            {
+                "name": "botnet-capture-20110818-bot-2.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 19.73
+            },
+            {
+                "name": "botnet-capture-20110818-bot.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 327.51
+            }
+        ]
+    },
+    "zeek": {
+        "job": {
+            "tool": "zeek",
+            "pcap_path": "/opt/pcaps/CTU/CTU-13-Dataset",
+            "pcap_num": 13,
+            "tls_total": 3634,
+            "cert_total": 9404,
+            "elapsed_total": 266.16
+        },
+        "task": [
+            {
+                "name": "botnet-capture-20110815-rbot-dos.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.51
+            },
+            {
+                "name": "botnet-capture-20110810-neris.pcap",
+                "tls_num": 63,
+                "cert_num": 134,
+                "elapsed": 2.73
+            },
+            {
+                "name": "botnet-capture-20110819-bot.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.76
+            },
+            {
+                "name": "botnet-capture-20110816-sogou.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.19
+            },
+            {
+                "name": "botnet-capture-20110816-qvod.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.68
+            },
+            {
+                "name": "botnet-capture-20110815-fast-flux.pcap",
+                "tls_num": 72,
+                "cert_num": 196,
+                "elapsed": 0.39
+            },
+            {
+                "name": "botnet-capture-20110816-donbot.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.27
+            },
+            {
+                "name": "botnet-capture-20110817-bot.pcap",
+                "tls_num": 3086,
+                "cert_num": 8017,
+                "elapsed": 16.08
+            },
+            {
+                "name": "botnet-capture-20110812-rbot.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 2.48
+            },
+            {
+                "name": "botnet-capture-20110811-neris.pcap",
+                "tls_num": 43,
+                "cert_num": 91,
+                "elapsed": 2.12
+            },
+            {
+                "name": "botnet-capture-20110815-fast-flux-2.pcap",
+                "tls_num": 370,
+                "cert_num": 966,
+                "elapsed": 4.24
+            },
+            {
+                "name": "botnet-capture-20110818-bot-2.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 5.23
+            },
+            {
+                "name": "botnet-capture-20110818-bot.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 230.48
+            }
+        ]
+    }
+}
