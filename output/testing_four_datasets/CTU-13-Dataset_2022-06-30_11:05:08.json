@@ -5,7 +5,7 @@
     "joy": {
         "job": {
             "tool": "joy",
-            "pcap_path": "/opt/pcaps/CTU13",
+            "pcap_path": "/pcaps/CTU13",
             "pcap_num": 13,
             "tls_total": 1504,
             "cert_total": 1931,
