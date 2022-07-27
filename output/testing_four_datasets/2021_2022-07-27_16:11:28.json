@@ -1,0 +1,1409 @@
+{
+    "cpu": "11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz",
+    "os": "Linux 4.18.0-348.2.1.el8_5.x86_64",
+    "time": "2022-07-27 16:11:28",
+    "joy": {
+        "job": {
+            "tool": "joy",
+            "pcap_path": "/pcaps/2021",
+            "pcap_num": 115,
+            "tls_total": 32333,
+            "cert_total": 23813,
+            "elapsed_total": 28.49
+        },
+        "task": [
+            {
+                "name": "2021-09-21-Curriculo.pcap",
+                "tls_num": 4,
+                "cert_num": 6,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-01-04-Emotet-infection-with-Trickbot-traffic.pcap",
+                "tls_num": 10,
+                "cert_num": 10,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-01-05-PurpleFox-EK-and-post-infection-traffic.pcap",
+                "tls_num": 8,
+                "cert_num": 14,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-01-06-Remcos-RAT-infection.pcap",
+                "tls_num": 1,
+                "cert_num": 2,
+                "elapsed": 0.01
+            },
+            {
+                "name": "2021-01-12-Hancitor-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 258,
+                "cert_num": 190,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-01-15-Emotet-epoch-1-infection-traffic.pcap",
+                "tls_num": 40,
+                "cert_num": 74,
+                "elapsed": 0.05
+            },
+            {
+                "name": "2021-01-14-Rig-EK-sends-Dridex.pcap",
+                "tls_num": 6,
+                "cert_num": 8,
+                "elapsed": 0.01
+            },
+            {
+                "name": "2021-02-04-Rig-EK-sends-possible-BuerLoader.pcap",
+                "tls_num": 21,
+                "cert_num": 37,
+                "elapsed": 0.12
+            },
+            {
+                "name": "2021-04-16-TA551-Ursnif-traffic.pcap",
+                "tls_num": 43,
+                "cert_num": 57,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-02-05-Spelevo-EK-sends-SmokeLoader.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.01
+            },
+            {
+                "name": "2021-02-22-IcedID-infection-traffic.pcap",
+                "tls_num": 23,
+                "cert_num": 27,
+                "elapsed": 0.05
+            },
+            {
+                "name": "2021-01-26-TA551-Qakbot-infection-traffic.pcap",
+                "tls_num": 93,
+                "cert_num": 196,
+                "elapsed": 0.24
+            },
+            {
+                "name": "2021-03-08-Spelevo-EK-sends-ZLoader.pcap",
+                "tls_num": 32,
+                "cert_num": 57,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-02-24-Qakbot-infection-with-spambot-traffic.pcap",
+                "tls_num": 76,
+                "cert_num": 144,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-02-01-SystemBC-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 164,
+                "cert_num": 145,
+                "elapsed": 0.09
+            },
+            {
+                "name": "2021-04-28-TA551-Ursnif-infection-traffic.pcap",
+                "tls_num": 6,
+                "cert_num": 2,
+                "elapsed": 0.02
+            },
+            {
+                "name": "2021-04-29-TA551-IcedID-infection-traffic.pcap",
+                "tls_num": 36,
+                "cert_num": 39,
+                "elapsed": 0.02
+            },
+            {
+                "name": "2021-01-13-Emotet-epoch-2-infection-traffic-with-Trickbot-gtag-mor13.pcap",
+                "tls_num": 46,
+                "cert_num": 78,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-04-23-part-1-JS-file-retrieves-installer-DLL.pcap",
+                "tls_num": 1,
+                "cert_num": 4,
+                "elapsed": 0.01
+            },
+            {
+                "name": "2021-02-02-Hancitor-with-Ficker-Stealer-and-Cobalt-Strike-and-NetSupport-RAT.pcap",
+                "tls_num": 193,
+                "cert_num": 186,
+                "elapsed": 0.52
+            },
+            {
+                "name": "2021-02-12-Qakbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 316,
+                "cert_num": 379,
+                "elapsed": 0.31
+            },
+            {
+                "name": "2021-05-14-Ursnif-infection-traffic.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.01
+            },
+            {
+                "name": "2021-02-17-Trickbot-gtag-rob13-infection-in-AD-environment.pcap",
+                "tls_num": 91,
+                "cert_num": 137,
+                "elapsed": 0.09
+            },
+            {
+                "name": "2021-02-19-trafego-de-host-windows-infectado.pcap",
+                "tls_num": 61,
+                "cert_num": 70,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-05-24-TA551-IcedID-infection-traffic.pcap",
+                "tls_num": 10,
+                "cert_num": 12,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-02-25-TA551-IcedID-infection-traffic.pcap",
+                "tls_num": 8,
+                "cert_num": 11,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-05-26-Trickbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 73,
+                "cert_num": 73,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-03-02-Qakbot-with-Cobalt-Strike-activity.pcap",
+                "tls_num": 101,
+                "cert_num": 143,
+                "elapsed": 0.09
+            },
+            {
+                "name": "2021-06-21-BazarCall-to-BazarLoader-traffic.pcap",
+                "tls_num": 17,
+                "cert_num": 11,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-03-11-IcedID-infection-traffic.pcap",
+                "tls_num": 31,
+                "cert_num": 51,
+                "elapsed": 0.05
+            },
+            {
+                "name": "2021-05-27-IcedID-infection-traffic.pcap",
+                "tls_num": 136,
+                "cert_num": 211,
+                "elapsed": 0.09
+            },
+            {
+                "name": "2021-03-12-TA551-Ursnif-infection-traffic.pcap",
+                "tls_num": 97,
+                "cert_num": 173,
+                "elapsed": 0.05
+            },
+            {
+                "name": "2021-06-01-Hancitor-with-Cobalt-Stike-and-netping-tool.pcap",
+                "tls_num": 1600,
+                "cert_num": 118,
+                "elapsed": 0.38
+            },
+            {
+                "name": "2021-03-17-TA551-Ursnif-1st-run-standalone-host.pcap",
+                "tls_num": 148,
+                "cert_num": 325,
+                "elapsed": 0.12
+            },
+            {
+                "name": "2021-07-02-Astaroth-Guildma-infection-traffic.pcap",
+                "tls_num": 38,
+                "cert_num": 69,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-03-18-Hancitor-infection-traffic.pcap",
+                "tls_num": 591,
+                "cert_num": 194,
+                "elapsed": 0.22
+            },
+            {
+                "name": "2021-06-02-IcedID-infection-traffic.pcap",
+                "tls_num": 9,
+                "cert_num": 12,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-03-19-IcedID-infection-traffic-carved.pcap",
+                "tls_num": 12,
+                "cert_num": 18,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-08-10-TA551-BazarLoader-to-Cobalt-Strike.pcap",
+                "tls_num": 96,
+                "cert_num": 17,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-04-01-IcedID-infection-1st-run.pcap",
+                "tls_num": 10,
+                "cert_num": 19,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-04-23-part-2-installer-DLL-causes-IcedID-infection.pcap",
+                "tls_num": 7,
+                "cert_num": 10,
+                "elapsed": 0.02
+            },
+            {
+                "name": "2021-04-06-Hancitor-infection-with-Ficker-Stealer-and-attempted-Cobalt-Strike.pcap",
+                "tls_num": 162,
+                "cert_num": 233,
+                "elapsed": 0.13
+            },
+            {
+                "name": "2021-06-03-part-01-Qakbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 331,
+                "cert_num": 463,
+                "elapsed": 0.3
+            },
+            {
+                "name": "2021-04-07-BazaLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 601,
+                "cert_num": 137,
+                "elapsed": 0.22
+            },
+            {
+                "name": "2021-05-13-Hancitor-traffic-with-Ficker-Stealer-and-Cobalt-Strike.pcap",
+                "tls_num": 124,
+                "cert_num": 153,
+                "elapsed": 0.11
+            },
+            {
+                "name": "2021-04-07-Hancitor-infection-with-Cobalt-Strike-and-Ficker-Stealer.pcap",
+                "tls_num": 185,
+                "cert_num": 233,
+                "elapsed": 0.13
+            },
+            {
+                "name": "2021-05-18-Qakbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 186,
+                "cert_num": 208,
+                "elapsed": 0.2
+            },
+            {
+                "name": "2021-04-09-part-1-JS-file-retrieves-installer-DLL.pcap",
+                "tls_num": 1,
+                "cert_num": 4,
+                "elapsed": 0.01
+            },
+            {
+                "name": "2021-05-20-Hancitor-infection.pcap",
+                "tls_num": 78,
+                "cert_num": 118,
+                "elapsed": 8.75
+            },
+            {
+                "name": "2021-04-09-part-2-installer-DLL-causes-IcedID-infection.pcap",
+                "tls_num": 8,
+                "cert_num": 11,
+                "elapsed": 0.02
+            },
+            {
+                "name": "2021-08-12-BazarLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 255,
+                "cert_num": 77,
+                "elapsed": 0.13
+            },
+            {
+                "name": "2021-04-12-Guildma-infection-traffic.pcap",
+                "tls_num": 38,
+                "cert_num": 38,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-08-31-Astaroth-Guildma-infection-traffic.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.08
+            },
+            {
+                "name": "2021-04-12-IcedID-infection-part-1-of-2.pcap",
+                "tls_num": 110,
+                "cert_num": 185,
+                "elapsed": 0.18
+            },
+            {
+                "name": "2021-08-30-TA551-BazarLoader-infection.pcap",
+                "tls_num": 42,
+                "cert_num": 27,
+                "elapsed": 0.02
+            },
+            {
+                "name": "2021-04-12-IcedID-infection-part-2-of-2.pcap",
+                "tls_num": 293,
+                "cert_num": 553,
+                "elapsed": 0.35
+            },
+            {
+                "name": "2021-08-30-traffic-from-STRRAT-infection.pcap",
+                "tls_num": 5,
+                "cert_num": 10,
+                "elapsed": 0.41
+            },
+            {
+                "name": "2021-04-14-BazaLoader-infection-traffic.pcap",
+                "tls_num": 32,
+                "cert_num": 32,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-05-21-Qakbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 1087,
+                "cert_num": 130,
+                "elapsed": 0.29
+            },
+            {
+                "name": "2021-04-15-BazaCall-BazaLoader-infection-1st-run.pcap",
+                "tls_num": 19,
+                "cert_num": 13,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-05-24-Hancitor-infection.pcap",
+                "tls_num": 131,
+                "cert_num": 186,
+                "elapsed": 0.25
+            },
+            {
+                "name": "2021-04-15-BazaCall-BazaLoader-infection-2nd-run.pcap",
+                "tls_num": 18,
+                "cert_num": 12,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-06-16-BazarCall-site-to-BazarLoader-1st-run.pcap",
+                "tls_num": 28,
+                "cert_num": 11,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-04-16-BazaCall-BazaLoader-infection.pcap",
+                "tls_num": 18,
+                "cert_num": 10,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-09-02-Hancitor-with-Cobalt-Strike.pcap",
+                "tls_num": 105,
+                "cert_num": 124,
+                "elapsed": 0.09
+            },
+            {
+                "name": "2021-08-05-AZORult-infection.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.03
+            },
+            {
+                "name": "2021-06-03-BazarCall-website-to-BazarLoader-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 470,
+                "cert_num": 102,
+                "elapsed": 0.18
+            },
+            {
+                "name": "2021-06-15-Hancitor-with-Ficker-Stealer-and-Cobalt-Strike.pcap",
+                "tls_num": 43,
+                "cert_num": 84,
+                "elapsed": 0.12
+            },
+            {
+                "name": "2021-06-16-BazarCall-site-to-BazarLoader-2nd-run.pcap",
+                "tls_num": 17,
+                "cert_num": 5,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-06-17-Hancitor-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 116,
+                "cert_num": 167,
+                "elapsed": 0.12
+            },
+            {
+                "name": "2021-06-18-TA551-Gozi-ISFB-Ursnif-infection-traffic.pcap",
+                "tls_num": 9,
+                "cert_num": 9,
+                "elapsed": 0.13
+            },
+            {
+                "name": "2021-06-30-TA551-Trickbot-with-DarkVNC-and-Cobalt-Strike.pcap",
+                "tls_num": 125,
+                "cert_num": 257,
+                "elapsed": 0.14
+            },
+            {
+                "name": "2021-07-12-Trickbot-gtag-rob106-infection-traffic.pcap",
+                "tls_num": 22,
+                "cert_num": 20,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-07-15-TA551-Trickbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 389,
+                "cert_num": 235,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-07-21-TA551-part-1-of-2-BazarLoader-and-Bazar-C2.pcap",
+                "tls_num": 39,
+                "cert_num": 57,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-07-21-TA551-part-2-of-2-Bazar-C2-and-Cobalt-Strike.pcap",
+                "tls_num": 294,
+                "cert_num": 18,
+                "elapsed": 0.11
+            },
+            {
+                "name": "2021-11-30-Emotet-epoch4-infection-from-appinstaller.pcap",
+                "tls_num": 29,
+                "cert_num": 16,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-09-01-TA551-BazarLoader-with-Trickbot.pcap",
+                "tls_num": 38,
+                "cert_num": 22,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-12-03-Contact-Forms-BazarLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 616,
+                "cert_num": 596,
+                "elapsed": 0.3
+            },
+            {
+                "name": "2021-09-03-GuLoader-for-possible-Remcos-RAT.pcap",
+                "tls_num": 2,
+                "cert_num": 3,
+                "elapsed": 0.01
+            },
+            {
+                "name": "2021-11-18-Emotet-infection-with-spambot-activity-carved-and-sanitized.pcap",
+                "tls_num": 34,
+                "cert_num": 64,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-09-14-Hancitor-with-Cobalt-Strike-infection-traffic.pcap",
+                "tls_num": 2918,
+                "cert_num": 57,
+                "elapsed": 0.79
+            },
+            {
+                "name": "2021-11-03-TA551-BazarLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 459,
+                "cert_num": 344,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-09-17-Squirrelwaffle-loader-with-Cobalt-Strike.pcap",
+                "tls_num": 135,
+                "cert_num": 103,
+                "elapsed": 0.11
+            },
+            {
+                "name": "2021-09-20-Qakbot-infection-traffic.pcap",
+                "tls_num": 67,
+                "cert_num": 117,
+                "elapsed": 0.13
+            },
+            {
+                "name": "2021-09-20-TA551-BazarLoader.pcap",
+                "tls_num": 99,
+                "cert_num": 95,
+                "elapsed": 0.06
+            },
+            {
+                "name": "2021-11-04-TR-Qakbot-with-Cobalt-Strike.pcap",
+                "tls_num": 665,
+                "cert_num": 69,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-09-20-TR-Squirrelwaffle-Loader-with-Cobalt-Strike.pcap",
+                "tls_num": 181,
+                "cert_num": 135,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-11-05-TA551-BazarLoader-with-CobaltStrike-and-DarkVNC.pcap",
+                "tls_num": 221,
+                "cert_num": 197,
+                "elapsed": 0.31
+            },
+            {
+                "name": "2021-09-21-Squirrelwaffle-Loader-with-Cobalt-Strike.pcap",
+                "tls_num": 119,
+                "cert_num": 57,
+                "elapsed": 0.07
+            },
+            {
+                "name": "2021-11-15-Matanbuchus-Qabkot-obama128b-Cobalt-Strike.pcap",
+                "tls_num": 1158,
+                "cert_num": 328,
+                "elapsed": 0.48
+            },
+            {
+                "name": "2021-09-22-Squirrelwaffle-with-Qakbot-and-Cobalt-Strike.pcap",
+                "tls_num": 139,
+                "cert_num": 213,
+                "elapsed": 0.22
+            },
+            {
+                "name": "2021-12-07-obama141-Qakbot-and-Matanbuchus-traffic.pcap",
+                "tls_num": 192,
+                "cert_num": 266,
+                "elapsed": 0.28
+            },
+            {
+                "name": "2021-09-23-Gozi-infection-with-Raccoon-part-1.pcap",
+                "tls_num": 458,
+                "cert_num": 1332,
+                "elapsed": 0.2
+            },
+            {
+                "name": "2021-12-10-TA551-IcedID-with-Cobalt-Strike-and-DarkVNC.pcap",
+                "tls_num": 382,
+                "cert_num": 199,
+                "elapsed": 0.21
+            },
+            {
+                "name": "2021-09-23-Gozi-infection-with-Raccoon-part-2.pcap",
+                "tls_num": 3060,
+                "cert_num": 9080,
+                "elapsed": 1.29
+            },
+            {
+                "name": "2021-11-24-Gigi-BazarLoader-with-IcedID.pcap",
+                "tls_num": 86,
+                "cert_num": 140,
+                "elapsed": 0.09
+            },
+            {
+                "name": "2021-09-23-Squirrelwaffle-with-Qakbot-and-Cobalt-Strike.pcap",
+                "tls_num": 143,
+                "cert_num": 112,
+                "elapsed": 0.09
+            },
+            {
+                "name": "2021-11-22-Contact-Forms-BazarLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 2296,
+                "cert_num": 142,
+                "elapsed": 0.51
+            },
+            {
+                "name": "2021-09-24-Squirrelwaffle-with-Qakbot-and-Cobalt-Strike.pcap",
+                "tls_num": 174,
+                "cert_num": 311,
+                "elapsed": 0.35
+            },
+            {
+                "name": "2021-12-11-thru-13-server-activity-with-log4j-attempts.pcap",
+                "tls_num": 2,
+                "cert_num": 0,
+                "elapsed": 0.74
+            },
+            {
+                "name": "2021-09-29-Hancitor-with-Cobalt-Strike-traffic.pcap",
+                "tls_num": 29,
+                "cert_num": 54,
+                "elapsed": 0.82
+            },
+            {
+                "name": "2021-12-13-Contact-Forms-IcedID-with-Cobalt-Strike-and-DarkVNC.pcap",
+                "tls_num": 7539,
+                "cert_num": 581,
+                "elapsed": 1.56
+            },
+            {
+                "name": "2021-10-01-TR-Qakbot-infection-wtih-spambot-acitvity.pcap",
+                "tls_num": 500,
+                "cert_num": 1018,
+                "elapsed": 0.65
+            },
+            {
+                "name": "2021-12-16-Hancitor-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 53,
+                "cert_num": 97,
+                "elapsed": 0.64
+            },
+            {
+                "name": "2021-10-04-MirrorBlast-infection-traffic.pcap",
+                "tls_num": 20,
+                "cert_num": 25,
+                "elapsed": 0.05
+            },
+            {
+                "name": "2021-10-20-TA551-Sliver-infection-traffic.pcap",
+                "tls_num": 91,
+                "cert_num": 0,
+                "elapsed": 0.08
+            },
+            {
+                "name": "2021-10-04-TR-Squirrelwaffle-and-Qakbot-with-Cobalt-Strike.pcap",
+                "tls_num": 161,
+                "cert_num": 289,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-10-05-MirrorBlast-infection-traffic.pcap",
+                "tls_num": 12,
+                "cert_num": 19,
+                "elapsed": 0.02
+            },
+            {
+                "name": "2021-10-06-Gozi-ISFB-Ursnif-infection.pcap",
+                "tls_num": 23,
+                "cert_num": 26,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-10-07-Qakbot-obama111-with-Cobalt-Strike.pcap",
+                "tls_num": 72,
+                "cert_num": 161,
+                "elapsed": 0.38
+            },
+            {
+                "name": "2021-10-12-IcedID-infection.pcap",
+                "tls_num": 31,
+                "cert_num": 43,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-10-13-Dridex-infection-traffic.pcap",
+                "tls_num": 14,
+                "cert_num": 10,
+                "elapsed": 0.02
+            },
+            {
+                "name": "2021-11-29-Emotet-epoch-5-infection-traffic.pcap",
+                "tls_num": 48,
+                "cert_num": 36,
+                "elapsed": 0.04
+            },
+            {
+                "name": "2021-10-14-Stolen-Images-Evidence-BazarLoader-infection.pcap",
+                "tls_num": 173,
+                "cert_num": 205,
+                "elapsed": 0.09
+            }
+        ]
+    },
+    "zeek": {
+        "job": {
+            "tool": "zeek",
+            "pcap_path": "/opt/pcaps/mta_all/2021",
+            "pcap_num": 115,
+            "tls_total": 32190,
+            "cert_total": 46401,
+            "elapsed_total": 41.96
+        },
+        "task": [
+            {
+                "name": "2021-09-21-Curriculo.pcap",
+                "tls_num": 4,
+                "cert_num": 8,
+                "elapsed": 0.21
+            },
+            {
+                "name": "2021-01-04-Emotet-infection-with-Trickbot-traffic.pcap",
+                "tls_num": 10,
+                "cert_num": 15,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-01-05-PurpleFox-EK-and-post-infection-traffic.pcap",
+                "tls_num": 8,
+                "cert_num": 15,
+                "elapsed": 0.18
+            },
+            {
+                "name": "2021-01-06-Remcos-RAT-infection.pcap",
+                "tls_num": 1,
+                "cert_num": 2,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-01-12-Hancitor-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 258,
+                "cert_num": 361,
+                "elapsed": 0.34
+            },
+            {
+                "name": "2021-01-15-Emotet-epoch-1-infection-traffic.pcap",
+                "tls_num": 40,
+                "cert_num": 79,
+                "elapsed": 0.2
+            },
+            {
+                "name": "2021-01-14-Rig-EK-sends-Dridex.pcap",
+                "tls_num": 6,
+                "cert_num": 8,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-02-04-Rig-EK-sends-possible-BuerLoader.pcap",
+                "tls_num": 21,
+                "cert_num": 37,
+                "elapsed": 0.18
+            },
+            {
+                "name": "2021-04-16-TA551-Ursnif-traffic.pcap",
+                "tls_num": 43,
+                "cert_num": 70,
+                "elapsed": 0.18
+            },
+            {
+                "name": "2021-02-05-Spelevo-EK-sends-SmokeLoader.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-02-22-IcedID-infection-traffic.pcap",
+                "tls_num": 23,
+                "cert_num": 27,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-01-26-TA551-Qakbot-infection-traffic.pcap",
+                "tls_num": 183,
+                "cert_num": 424,
+                "elapsed": 0.3
+            },
+            {
+                "name": "2021-03-08-Spelevo-EK-sends-ZLoader.pcap",
+                "tls_num": 32,
+                "cert_num": 57,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-02-24-Qakbot-infection-with-spambot-traffic.pcap",
+                "tls_num": 93,
+                "cert_num": 192,
+                "elapsed": 0.27
+            },
+            {
+                "name": "2021-02-01-SystemBC-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 164,
+                "cert_num": 237,
+                "elapsed": 0.24
+            },
+            {
+                "name": "2021-04-28-TA551-Ursnif-infection-traffic.pcap",
+                "tls_num": 6,
+                "cert_num": 6,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-04-29-TA551-IcedID-infection-traffic.pcap",
+                "tls_num": 36,
+                "cert_num": 39,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-01-13-Emotet-epoch-2-infection-traffic-with-Trickbot-gtag-mor13.pcap",
+                "tls_num": 46,
+                "cert_num": 84,
+                "elapsed": 0.2
+            },
+            {
+                "name": "2021-04-23-part-1-JS-file-retrieves-installer-DLL.pcap",
+                "tls_num": 1,
+                "cert_num": 4,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-02-02-Hancitor-with-Ficker-Stealer-and-Cobalt-Strike-and-NetSupport-RAT.pcap",
+                "tls_num": 193,
+                "cert_num": 302,
+                "elapsed": 1.41
+            },
+            {
+                "name": "2021-02-12-Qakbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 310,
+                "cert_num": 518,
+                "elapsed": 0.37
+            },
+            {
+                "name": "2021-05-14-Ursnif-infection-traffic.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-02-17-Trickbot-gtag-rob13-infection-in-AD-environment.pcap",
+                "tls_num": 91,
+                "cert_num": 157,
+                "elapsed": 0.24
+            },
+            {
+                "name": "2021-02-19-trafego-de-host-windows-infectado.pcap",
+                "tls_num": 61,
+                "cert_num": 98,
+                "elapsed": 0.32
+            },
+            {
+                "name": "2021-05-24-TA551-IcedID-infection-traffic.pcap",
+                "tls_num": 9,
+                "cert_num": 12,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-02-25-TA551-IcedID-infection-traffic.pcap",
+                "tls_num": 8,
+                "cert_num": 11,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-05-26-Trickbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 73,
+                "cert_num": 74,
+                "elapsed": 0.34
+            },
+            {
+                "name": "2021-03-02-Qakbot-with-Cobalt-Strike-activity.pcap",
+                "tls_num": 101,
+                "cert_num": 151,
+                "elapsed": 0.25
+            },
+            {
+                "name": "2021-06-21-BazarCall-to-BazarLoader-traffic.pcap",
+                "tls_num": 17,
+                "cert_num": 18,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-03-11-IcedID-infection-traffic.pcap",
+                "tls_num": 29,
+                "cert_num": 49,
+                "elapsed": 0.18
+            },
+            {
+                "name": "2021-05-27-IcedID-infection-traffic.pcap",
+                "tls_num": 136,
+                "cert_num": 225,
+                "elapsed": 0.23
+            },
+            {
+                "name": "2021-03-12-TA551-Ursnif-infection-traffic.pcap",
+                "tls_num": 97,
+                "cert_num": 198,
+                "elapsed": 0.2
+            },
+            {
+                "name": "2021-06-01-Hancitor-with-Cobalt-Stike-and-netping-tool.pcap",
+                "tls_num": 1600,
+                "cert_num": 1666,
+                "elapsed": 0.75
+            },
+            {
+                "name": "2021-03-17-TA551-Ursnif-1st-run-standalone-host.pcap",
+                "tls_num": 147,
+                "cert_num": 342,
+                "elapsed": 0.25
+            },
+            {
+                "name": "2021-07-02-Astaroth-Guildma-infection-traffic.pcap",
+                "tls_num": 38,
+                "cert_num": 74,
+                "elapsed": 0.37
+            },
+            {
+                "name": "2021-03-18-Hancitor-infection-traffic.pcap",
+                "tls_num": 591,
+                "cert_num": 711,
+                "elapsed": 0.47
+            },
+            {
+                "name": "2021-06-02-IcedID-infection-traffic.pcap",
+                "tls_num": 9,
+                "cert_num": 12,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-03-19-IcedID-infection-traffic-carved.pcap",
+                "tls_num": 12,
+                "cert_num": 18,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-08-10-TA551-BazarLoader-to-Cobalt-Strike.pcap",
+                "tls_num": 96,
+                "cert_num": 103,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-04-01-IcedID-infection-1st-run.pcap",
+                "tls_num": 10,
+                "cert_num": 19,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-04-23-part-2-installer-DLL-causes-IcedID-infection.pcap",
+                "tls_num": 7,
+                "cert_num": 10,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-04-06-Hancitor-infection-with-Ficker-Stealer-and-attempted-Cobalt-Strike.pcap",
+                "tls_num": 162,
+                "cert_num": 294,
+                "elapsed": 0.28
+            },
+            {
+                "name": "2021-06-03-part-01-Qakbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 331,
+                "cert_num": 472,
+                "elapsed": 0.47
+            },
+            {
+                "name": "2021-04-07-BazaLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 601,
+                "cert_num": 648,
+                "elapsed": 0.34
+            },
+            {
+                "name": "2021-05-13-Hancitor-traffic-with-Ficker-Stealer-and-Cobalt-Strike.pcap",
+                "tls_num": 124,
+                "cert_num": 209,
+                "elapsed": 0.27
+            },
+            {
+                "name": "2021-04-07-Hancitor-infection-with-Cobalt-Strike-and-Ficker-Stealer.pcap",
+                "tls_num": 185,
+                "cert_num": 318,
+                "elapsed": 0.28
+            },
+            {
+                "name": "2021-05-18-Qakbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 186,
+                "cert_num": 268,
+                "elapsed": 0.31
+            },
+            {
+                "name": "2021-04-09-part-1-JS-file-retrieves-installer-DLL.pcap",
+                "tls_num": 1,
+                "cert_num": 4,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-05-20-Hancitor-infection.pcap",
+                "tls_num": 78,
+                "cert_num": 142,
+                "elapsed": 1.31
+            },
+            {
+                "name": "2021-04-09-part-2-installer-DLL-causes-IcedID-infection.pcap",
+                "tls_num": 8,
+                "cert_num": 11,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-08-12-BazarLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 99,
+                "cert_num": 132,
+                "elapsed": 0.21
+            },
+            {
+                "name": "2021-04-12-Guildma-infection-traffic.pcap",
+                "tls_num": 38,
+                "cert_num": 57,
+                "elapsed": 0.28
+            },
+            {
+                "name": "2021-08-31-Astaroth-Guildma-infection-traffic.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.2
+            },
+            {
+                "name": "2021-04-12-IcedID-infection-part-1-of-2.pcap",
+                "tls_num": 110,
+                "cert_num": 186,
+                "elapsed": 0.33
+            },
+            {
+                "name": "2021-08-30-TA551-BazarLoader-infection.pcap",
+                "tls_num": 42,
+                "cert_num": 51,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-04-12-IcedID-infection-part-2-of-2.pcap",
+                "tls_num": 283,
+                "cert_num": 581,
+                "elapsed": 0.46
+            },
+            {
+                "name": "2021-08-30-traffic-from-STRRAT-infection.pcap",
+                "tls_num": 5,
+                "cert_num": 10,
+                "elapsed": 0.23
+            },
+            {
+                "name": "2021-04-14-BazaLoader-infection-traffic.pcap",
+                "tls_num": 31,
+                "cert_num": 46,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-05-21-Qakbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 1087,
+                "cert_num": 1132,
+                "elapsed": 0.39
+            },
+            {
+                "name": "2021-04-15-BazaCall-BazaLoader-infection-1st-run.pcap",
+                "tls_num": 19,
+                "cert_num": 23,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-05-24-Hancitor-infection.pcap",
+                "tls_num": 131,
+                "cert_num": 232,
+                "elapsed": 0.65
+            },
+            {
+                "name": "2021-04-15-BazaCall-BazaLoader-infection-2nd-run.pcap",
+                "tls_num": 18,
+                "cert_num": 23,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-06-16-BazarCall-site-to-BazarLoader-1st-run.pcap",
+                "tls_num": 28,
+                "cert_num": 29,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-04-16-BazaCall-BazaLoader-infection.pcap",
+                "tls_num": 18,
+                "cert_num": 22,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-09-02-Hancitor-with-Cobalt-Strike.pcap",
+                "tls_num": 105,
+                "cert_num": 179,
+                "elapsed": 0.23
+            },
+            {
+                "name": "2021-08-05-AZORult-infection.pcap",
+                "tls_num": 0,
+                "cert_num": 0,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-06-03-BazarCall-website-to-BazarLoader-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 100,
+                "cert_num": 146,
+                "elapsed": 0.3
+            },
+            {
+                "name": "2021-06-15-Hancitor-with-Ficker-Stealer-and-Cobalt-Strike.pcap",
+                "tls_num": 43,
+                "cert_num": 85,
+                "elapsed": 0.43
+            },
+            {
+                "name": "2021-06-16-BazarCall-site-to-BazarLoader-2nd-run.pcap",
+                "tls_num": 17,
+                "cert_num": 18,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-06-17-Hancitor-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 116,
+                "cert_num": 213,
+                "elapsed": 0.32
+            },
+            {
+                "name": "2021-06-18-TA551-Gozi-ISFB-Ursnif-infection-traffic.pcap",
+                "tls_num": 9,
+                "cert_num": 9,
+                "elapsed": 0.29
+            },
+            {
+                "name": "2021-06-30-TA551-Trickbot-with-DarkVNC-and-Cobalt-Strike.pcap",
+                "tls_num": 125,
+                "cert_num": 257,
+                "elapsed": 0.28
+            },
+            {
+                "name": "2021-07-12-Trickbot-gtag-rob106-infection-traffic.pcap",
+                "tls_num": 22,
+                "cert_num": 22,
+                "elapsed": 0.18
+            },
+            {
+                "name": "2021-07-15-TA551-Trickbot-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 397,
+                "cert_num": 523,
+                "elapsed": 0.31
+            },
+            {
+                "name": "2021-07-21-TA551-part-1-of-2-BazarLoader-and-Bazar-C2.pcap",
+                "tls_num": 39,
+                "cert_num": 57,
+                "elapsed": 0.19
+            },
+            {
+                "name": "2021-07-21-TA551-part-2-of-2-Bazar-C2-and-Cobalt-Strike.pcap",
+                "tls_num": 294,
+                "cert_num": 297,
+                "elapsed": 0.22
+            },
+            {
+                "name": "2021-11-30-Emotet-epoch4-infection-from-appinstaller.pcap",
+                "tls_num": 29,
+                "cert_num": 35,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-09-01-TA551-BazarLoader-with-Trickbot.pcap",
+                "tls_num": 38,
+                "cert_num": 43,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-12-03-Contact-Forms-BazarLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 616,
+                "cert_num": 926,
+                "elapsed": 0.5
+            },
+            {
+                "name": "2021-09-03-GuLoader-for-possible-Remcos-RAT.pcap",
+                "tls_num": 2,
+                "cert_num": 4,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-11-18-Emotet-infection-with-spambot-activity-carved-and-sanitized.pcap",
+                "tls_num": 55,
+                "cert_num": 123,
+                "elapsed": 0.19
+            },
+            {
+                "name": "2021-09-14-Hancitor-with-Cobalt-Strike-infection-traffic.pcap",
+                "tls_num": 2918,
+                "cert_num": 2950,
+                "elapsed": 1.17
+            },
+            {
+                "name": "2021-11-03-TA551-BazarLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 307,
+                "cert_num": 469,
+                "elapsed": 0.33
+            },
+            {
+                "name": "2021-09-17-Squirrelwaffle-loader-with-Cobalt-Strike.pcap",
+                "tls_num": 135,
+                "cert_num": 187,
+                "elapsed": 0.34
+            },
+            {
+                "name": "2021-09-20-Qakbot-infection-traffic.pcap",
+                "tls_num": 107,
+                "cert_num": 203,
+                "elapsed": 0.29
+            },
+            {
+                "name": "2021-09-20-TA551-BazarLoader.pcap",
+                "tls_num": 99,
+                "cert_num": 142,
+                "elapsed": 0.23
+            },
+            {
+                "name": "2021-11-04-TR-Qakbot-with-Cobalt-Strike.pcap",
+                "tls_num": 665,
+                "cert_num": 687,
+                "elapsed": 0.28
+            },
+            {
+                "name": "2021-09-20-TR-Squirrelwaffle-Loader-with-Cobalt-Strike.pcap",
+                "tls_num": 179,
+                "cert_num": 247,
+                "elapsed": 0.47
+            },
+            {
+                "name": "2021-11-05-TA551-BazarLoader-with-CobaltStrike-and-DarkVNC.pcap",
+                "tls_num": 197,
+                "cert_num": 294,
+                "elapsed": 0.34
+            },
+            {
+                "name": "2021-09-21-Squirrelwaffle-Loader-with-Cobalt-Strike.pcap",
+                "tls_num": 119,
+                "cert_num": 147,
+                "elapsed": 0.25
+            },
+            {
+                "name": "2021-11-15-Matanbuchus-Qabkot-obama128b-Cobalt-Strike.pcap",
+                "tls_num": 1304,
+                "cert_num": 1651,
+                "elapsed": 0.79
+            },
+            {
+                "name": "2021-09-22-Squirrelwaffle-with-Qakbot-and-Cobalt-Strike.pcap",
+                "tls_num": 142,
+                "cert_num": 266,
+                "elapsed": 0.48
+            },
+            {
+                "name": "2021-12-07-obama141-Qakbot-and-Matanbuchus-traffic.pcap",
+                "tls_num": 192,
+                "cert_num": 268,
+                "elapsed": 0.46
+            },
+            {
+                "name": "2021-09-23-Gozi-infection-with-Raccoon-part-1.pcap",
+                "tls_num": 458,
+                "cert_num": 1333,
+                "elapsed": 0.41
+            },
+            {
+                "name": "2021-12-10-TA551-IcedID-with-Cobalt-Strike-and-DarkVNC.pcap",
+                "tls_num": 384,
+                "cert_num": 493,
+                "elapsed": 0.33
+            },
+            {
+                "name": "2021-09-23-Gozi-infection-with-Raccoon-part-2.pcap",
+                "tls_num": 3054,
+                "cert_num": 9083,
+                "elapsed": 2.06
+            },
+            {
+                "name": "2021-11-24-Gigi-BazarLoader-with-IcedID.pcap",
+                "tls_num": 86,
+                "cert_num": 149,
+                "elapsed": 0.21
+            },
+            {
+                "name": "2021-09-23-Squirrelwaffle-with-Qakbot-and-Cobalt-Strike.pcap",
+                "tls_num": 131,
+                "cert_num": 163,
+                "elapsed": 0.33
+            },
+            {
+                "name": "2021-11-22-Contact-Forms-BazarLoader-with-Cobalt-Strike.pcap",
+                "tls_num": 2296,
+                "cert_num": 2356,
+                "elapsed": 0.55
+            },
+            {
+                "name": "2021-09-24-Squirrelwaffle-with-Qakbot-and-Cobalt-Strike.pcap",
+                "tls_num": 209,
+                "cert_num": 445,
+                "elapsed": 0.38
+            },
+            {
+                "name": "2021-12-11-thru-13-server-activity-with-log4j-attempts.pcap",
+                "tls_num": 8,
+                "cert_num": 8,
+                "elapsed": 1.17
+            },
+            {
+                "name": "2021-09-29-Hancitor-with-Cobalt-Strike-traffic.pcap",
+                "tls_num": 29,
+                "cert_num": 57,
+                "elapsed": 2.4
+            },
+            {
+                "name": "2021-12-13-Contact-Forms-IcedID-with-Cobalt-Strike-and-DarkVNC.pcap",
+                "tls_num": 7539,
+                "cert_num": 7723,
+                "elapsed": 2.08
+            },
+            {
+                "name": "2021-10-01-TR-Qakbot-infection-wtih-spambot-acitvity.pcap",
+                "tls_num": 715,
+                "cert_num": 1593,
+                "elapsed": 0.7
+            },
+            {
+                "name": "2021-12-16-Hancitor-infection-with-Cobalt-Strike.pcap",
+                "tls_num": 53,
+                "cert_num": 106,
+                "elapsed": 1.77
+            },
+            {
+                "name": "2021-10-04-MirrorBlast-infection-traffic.pcap",
+                "tls_num": 19,
+                "cert_num": 35,
+                "elapsed": 0.21
+            },
+            {
+                "name": "2021-10-20-TA551-Sliver-infection-traffic.pcap",
+                "tls_num": 91,
+                "cert_num": 91,
+                "elapsed": 0.18
+            },
+            {
+                "name": "2021-10-04-TR-Squirrelwaffle-and-Qakbot-with-Cobalt-Strike.pcap",
+                "tls_num": 163,
+                "cert_num": 329,
+                "elapsed": 0.28
+            },
+            {
+                "name": "2021-10-05-MirrorBlast-infection-traffic.pcap",
+                "tls_num": 12,
+                "cert_num": 22,
+                "elapsed": 0.16
+            },
+            {
+                "name": "2021-10-06-Gozi-ISFB-Ursnif-infection.pcap",
+                "tls_num": 23,
+                "cert_num": 36,
+                "elapsed": 0.19
+            },
+            {
+                "name": "2021-10-07-Qakbot-obama111-with-Cobalt-Strike.pcap",
+                "tls_num": 88,
+                "cert_num": 212,
+                "elapsed": 0.3
+            },
+            {
+                "name": "2021-10-12-IcedID-infection.pcap",
+                "tls_num": 31,
+                "cert_num": 43,
+                "elapsed": 0.18
+            },
+            {
+                "name": "2021-10-13-Dridex-infection-traffic.pcap",
+                "tls_num": 14,
+                "cert_num": 16,
+                "elapsed": 0.15
+            },
+            {
+                "name": "2021-11-29-Emotet-epoch-5-infection-traffic.pcap",
+                "tls_num": 48,
+                "cert_num": 64,
+                "elapsed": 0.17
+            },
+            {
+                "name": "2021-10-14-Stolen-Images-Evidence-BazarLoader-infection.pcap",
+                "tls_num": 173,
+                "cert_num": 273,
+                "elapsed": 0.26
+            }
+        ]
+    }
+}
