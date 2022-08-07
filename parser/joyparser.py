@@ -53,7 +53,7 @@ def run_joy_command(pcap_path):
     p = Path(pcap_path)
     f = NamedTemporaryFile("w+t", delete=False)
 
-    cmd_str = "joy tls=1 dist=1 ssh=1 tls=1 bidir=1 fpx=1 %s | gunzip > %s" % (pcap_path, f.name)
+    cmd_str = "joy tls=1 dist=1 bidir=1 fpx=1 entropy=1 model=F1:F2 %s | gunzip > %s" % (pcap_path, f.name)
     ret = os.system(cmd_str)
 
     if ret == 0:
